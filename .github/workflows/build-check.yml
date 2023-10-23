@@ -123,7 +123,7 @@ jobs:
           vcpkgGitCommitId: cef0b3ec767df6e83806899fe9525f6cf8d7bc91 # 2022.06.16.1
 
       - name: Install Qt
-        uses: jurplel/install-qt-action@v3
+        uses: jurplel/install-qt-action@v4
         with:
           arch: win64_msvc2019_64
           modules: ${{ matrix.config.qt_modules }}
